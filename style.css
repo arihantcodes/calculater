@@ -1,16 +1,18 @@
 body{
-    background-color: black;
+    background: linear-gradient( to right, rgb(99, 65, 222), rgb(162, 50, 128) );
 }
 .button{
     background-color: #333333;
     border: none;
     color: white;
-    padding: 29px 29px;
-    margin: 16px 8px;
+    /* padding: 29px 29px; */
+    margin: 16px 0px 16px 18px;
     cursor: pointer;
     font-size: 20px;
-    border-radius: 8px;
-    box-shadow: 0 3px orange;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  
 }
 .container{
     display: flex;
@@ -18,7 +20,15 @@ body{
     align-items: center;
     justify-content: center;
     margin: auto;
+    margin-top: 10%;
+    /* background-color: #1a1a1a; */
+    /* width: 30%; */
     
+    
+}
+.sec{
+    background-color: #071115;
+    border-radius: 10px;
 }
 .input{
     outline: none;
@@ -26,8 +36,12 @@ body{
     padding: 22px ;
     margin: 18px 0;
     border-radius: 10px;
+    border: 0;
+    background-color: transparent;
+    color: white;
 }
 @media screen and (max-width:600px) {
+   
     .button{
         padding: 22px 19px;
         margin: 12px 8px;
