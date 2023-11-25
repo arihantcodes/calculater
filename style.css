@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.button{
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 29px 29px;
+    margin: 16px 8px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px orange;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+.input{
+    outline: none;
+    font-size: 25px;
+    padding: 22px ;
+    margin: 18px 0;
+    border-radius: 10px;
+}
+@media screen and (max-width:600px) {
+    .button{
+        padding: 22px 19px;
+        margin: 12px 8px;
+    }
+    .input{
+        padding: 18px ;
+        margin: 10px 0;
+    }
+}
